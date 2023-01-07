@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 30px;
+    font-family: "Raleway";
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.menu_header {
+    margin-right: 20px;
+}
+
+.menu_header a {
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* beginning section top */
+
+.banner_top {
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+
+.txt_banner {
+    width: 70%;
+    color: hsl(243, 87%, 12%);
+    font-family: "Raleway";
+}
+
+.txt_banner h1 {
+    font-size: 33px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.txt_banner p {
+    font-size: 13.9px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans";
+}
+
+.mail_cont {
+    margin-top: px;
+    width: 230px;
+    height: 17px;
+    border-radius: 3px;
+    border-color: hsl(0, 0%, 75%);
+    padding: 10px;
+}
+
+.get_button {
+    background-color: hsl(224, 93%, 58%);
+    font-family: "Raleway";
+    color: antiquewhite;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-color: hsl(224, 93%, 58%);
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.get_button:hover {
+    background-color: hsl(224, 85%, 64%);
+    border-color: hsl(224, 85%, 64%);
+}
+
+.banner_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.illustration {
+    width: 50%;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+/* beginning section center */
+
+.banner_center {
+    height: 550px;
+    margin: 150px 0 0 0;
+    background-color:  hsl(240, 82%, 93%);
+}
+
+.center_container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 30px;
+    background-color:;
+}
+
+.txt_banner_center {
+    width: 80%;
+    color: hsl(243, 87%, 12%);
+    font-family: "Raleway";
+}
+
+.txt_banner_center h2{
+    font-size: 33px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.txt_banner_center p{
+    font-family: "Open Sans";
+    font-weight: 500px;
+
+}
+
+.location {
+    font-size: 13px;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans";
+}
+
+.testimonial {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: "Raleway";
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 60px;
+}
+
+.txt_banner_center a {
+    color: hsl(170, 45%, 43%);
+    text-underline-position: under ;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Fylo_works {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+}
+
+.testimonio {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 10px 8px hsl(0, 0%, 53%);
+    margin-left: 30px;
+}
+
+.arrow img {
+    width: 15px;
+    margin-left: 6px;
+}
+
+.avatar_txt img {
+    border-radius: 70%;
+    width: 13%;
+    height: auto;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+.avatar_txt {
+    display: flex;
+}
+
+.avatar_txt p {
+    margin-left: 10px;
+    font-size: 9px;
+}
+
+.name_bold {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.illustration_center {
+    width: 60%;
+}
+
+.illustration_center img {
+    width: 100%;
+    margin-top: 50px;
+    margin-right: px;
+}
+
+
+/*  beginning section violet */
+
+.banner_down_violet {
+    display: flex;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    color: antiquewhite;
+    height: 250px;
+}
+
+.violet_container {
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.txt_banner_violet h3{
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: "Raleway";
+    margin: 0;
+}
+
+.txt_banner_violet p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5 0 0 0;
+}
+
+.button_section {
+    display: grid;
+    align-content: center;
+    margin-left: 180px;
+}
+
+.mail_free {
+    width: 350px;
+    height: 17px;
+    border-radius: 3px;
+    border-color: hsl(0, 0%, 75%);
+    padding: 10px;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 30%);
+}
+
+.starter_free {
+    background-color: hsl(224, 93%, 58%);
+    font-family: "Raleway";
+    color: antiquewhite;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-color: hsl(224, 93%, 58%);
+    border-radius: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 30%);
+    margin-top: 10px;
+}
+
+/* beginning section footer */
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(243, 87%, 12%);
+    color: antiquewhite;
+    height: 350px;
+    align-items: ;
+    font-family: "Open Sans";
+    font-size: 12px;
+    
+}
+
+.logo_phone_footer {
+    margin-top: 60px;
+}
+
+.logo_phone_footer li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.logo_phone_footer img {
+    filter:invert(0.8) saturate(400%)contrast(200%) brightness(100%) ;
+}
+
+.icons_redes {
+    width: 120px;
+}
+
+.icons_redes img {
+    width: 28%;
+    filter: invert(0.9) sepia(1);
+}
+
+.twiter {
+    margin-left: 4px;
+}
+
+.instagram {
+    margin-left: 4px;
+}
+
+.menu_blog_footer {
+    margin-top: 100px;
+}
+
+.menu_blog_footer li{
+    list-style-type: none;
+}
+
+.menu_blog_footer a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.menu_legal_footer {
+    margin-top: 100px;
+}
+
+.menu_legal_footer li{
+    list-style-type: none;
+}
+
+.menu_legal_footer a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.icons_redes {
+    margin-top: 110px;
+}
