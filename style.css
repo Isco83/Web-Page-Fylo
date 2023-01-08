@@ -244,7 +244,7 @@ header {
 .button_section {
     display: grid;
     align-content: center;
-    margin-left: 180px;
+    margin-left: 400px;
 }
 
 .mail_free {
@@ -349,4 +349,14 @@ header {
 
 .icons_redes {
     margin-top: 110px;
+}
+
+.info_phone_mail {
+    
+}
+
+.info_phone_mail img {
+    color: antiquewhite;
+    margin-right: 10px;
+    filter: invert(0.5) brightness(15);
 }
