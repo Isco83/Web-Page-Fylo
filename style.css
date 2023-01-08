@@ -247,6 +247,11 @@ header {
     margin-left: 400px;
 }
 
+.starter_free:hover {
+    background-color: hsl(224, 85%, 64%);
+    border-color: hsl(224, 85%, 64%);
+}
+
 .mail_free {
     width: 350px;
     height: 17px;
