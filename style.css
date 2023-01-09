@@ -33,9 +33,8 @@ header {
 /* beginning section top */
 
 .banner_top {
-    margin-left: 30px;
     margin-top: 100px;
-    height: 600px;
+    height: 500px;
     
 }
 
@@ -90,6 +89,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-left: 30px;
 }
 
 .illustration {
@@ -100,12 +100,17 @@ header {
     width: 100%;
 }
 
+.banner_top::after{
+    position: absolute;
+    content: url(images/bg-curve-desktop.svg);    
+}
+
 /* beginning section center */
 
 .banner_center {
-    height: 550px;
-    margin: 0;
-    background-color:  hsl(240, 82%, 93%);
+    height: 600px;
+    margin-top: 40px;
+    background-color:  rgb(248, 248, 254);
 }
 
 .center_container {
@@ -113,7 +118,7 @@ header {
     justify-content: space-between;
     width: 90%;
     margin-left: 30px;
-    background-color:;
+    margin-top: 0px;
 }
 
 .txt_banner_center {
