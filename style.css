@@ -103,7 +103,7 @@ header {
 .banner_top::after{
     position: absolute;
     content: url(images/bg-curve-desktop.svg); 
-    margin-top: 160px;   
+    margin-top: 120px;   
 }
 
 /* beginning section center */
