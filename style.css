@@ -328,6 +328,10 @@ header {
     filter: invert(0.9) sepia(1);
 }
 
+.icons_redes img:hover {
+filter: invert(0.1) brightness(500%);
+}
+
 .twiter {
     margin-left: 4px;
 }
@@ -352,6 +356,10 @@ header {
     line-height: 40px;
 }
 
+.menu_blog_footer a:hover {
+    color: rgb(92, 129, 209);
+}
+
 .menu_legal_footer {
     margin-top: 100px;
 }
@@ -368,6 +376,10 @@ header {
     line-height: 40px;
 }
 
+.menu_legal_footer a:hover{
+    color: rgb(92, 129, 209);
+}
+
 .icons_redes {
     margin-top: 110px;
 }
@@ -381,3 +393,4 @@ header {
     margin-right: 10px;
     filter: invert(0.5) brightness(15);
 }
+
