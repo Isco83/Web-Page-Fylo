@@ -172,6 +172,10 @@ header {
     margin: 0;
 }
 
+.arrow a:hover{
+    color: rgb(111, 208, 247);
+}
+
 .testimonio {
     background-color: antiquewhite;
     width: 300px;
