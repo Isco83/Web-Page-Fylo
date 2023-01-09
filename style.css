@@ -34,7 +34,7 @@ header {
 
 .banner_top {
     margin-top: 100px;
-    height: 500px;
+    height: 600px;
     
 }
 
@@ -102,7 +102,8 @@ header {
 
 .banner_top::after{
     position: absolute;
-    content: url(images/bg-curve-desktop.svg);    
+    content: url(images/bg-curve-desktop.svg); 
+    margin-top: 160px;   
 }
 
 /* beginning section center */
@@ -211,7 +212,7 @@ header {
 }
 
 .name_bold {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 12px;
 }
 
