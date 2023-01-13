@@ -111,11 +111,11 @@ header {
 
 .curva {
     width: 300%;
-    height: 20%;
+    height: 33%;
     position: absolute;
     background-image: url(images/wd1.svg);
     background-repeat:repeat-x;
-    top: 700px;
+    top: 620px;
     background-position: bottom;
 }
 
