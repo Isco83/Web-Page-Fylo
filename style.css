@@ -120,7 +120,16 @@ header {
 }
 
 .w1 {
-    animation: w1 7s linear infinite;
+    animation: w1 16s linear infinite;
+}
+
+
+.w2 {
+    animation: w2 20s linear infinite;
+    fill: rgb(206, 26, 26);
+    filter: brightness(60%);
+    opacity: 50px;
+    transition: ease 2s;
 }
 
 @keyframes w1 {
@@ -132,12 +141,24 @@ header {
     }
 }
 
+@keyframes w2 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
 /* beginning section center */
 
 .banner_center {
     height: 600px;
     margin-top: 40px;
-    background-color:  rgb(58, 134, 203);
+    
+    background: rgb(204,225,249);
+    background: linear-gradient(0deg, rgba(204,225,249,1) 38%, rgba(122,135,149,1) 87%);
 }
 
 .center_container {
